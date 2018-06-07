@@ -47,7 +47,7 @@ deb http://buaya.klas.or.id/ubuntu xenial-security main restricted
 # deb-src http://buaya.klas.or.id/ubuntu xenial-security main restricted
 deb http://buaya.klas.or.id/ubuntu xenial-security universe
 # deb-src http://buaya.klas.or.id/ubuntu xenial-security universe
-deb http://buaya.klas.or.id/ubuntu xenial-security multiverse
+# deb http://buaya.klas.or.id/ubuntu xenial-security multiverse
 # deb-src http://buaya.klas.or.id/ubuntu xenial-security multiverse
 # deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable
 # deb-src [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable
