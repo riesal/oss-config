@@ -1,0 +1,18 @@
+[Unit]
+Description=Envoy MySQL Proxy
+Documentation=https://www.envoyproxy.io
+After=network-online.target
+
+[Service]
+User=user
+WorkingDirectory=/home/user
+LimitNOFILE=8192
+PIDFile=/var/run/envoy/envoy.pid
+ExecStart=/usr/bin/envoy -c /etc/envoy/envoy_config.yaml
+Restart=on-failure
+RestartSec=10
+StartLimitInterval=600
+
+[Install]
+WantedBy=multi-user.target
+
